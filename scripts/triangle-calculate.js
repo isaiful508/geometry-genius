@@ -21,6 +21,11 @@ const triangleHeightText = traingleHeightInput.value;
 const height = parseFloat(triangleHeightText);
 
 console.log(height);
-
+// calculate triangle area
+const area = 0.5*base*height;
+console.log('area of the triangle is:', area);
+// display traingle area
+const traingleAreaSpan = document.getElementById('traingle-area');
+traingleAreaSpan.innerText = area;
 
 }
